@@ -1,0 +1,16 @@
+package myClass;
+
+import java.util.Scanner;
+
+public class Iftest230604 {
+	public static void main(String[] args) {
+		int a = 19110118;
+		Scanner sc = new Scanner(System.in);
+//		System.out.println("생년월일을 입력하세요");
+		if(a==19110118) {
+			System.out.println("19110118가 생일이 맞습니다.");
+		}else {
+			System.out.println("년도 생일이 늘렸습니다.");
+		}
+	}
+}

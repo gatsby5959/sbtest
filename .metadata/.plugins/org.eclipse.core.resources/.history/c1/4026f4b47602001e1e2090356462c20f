@@ -1,0 +1,10 @@
+package myClass;
+
+import java.util.Scanner;
+
+public class Iftest230604 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("생년월일을 입력하세요");
+	}
+}
