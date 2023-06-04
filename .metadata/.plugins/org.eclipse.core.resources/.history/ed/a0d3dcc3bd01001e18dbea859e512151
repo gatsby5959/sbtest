@@ -1,0 +1,23 @@
+package myClass;
+
+public class FinallyTest {
+	public void shouldBeRun() {
+		System.out.println("ok thanks.");
+	}
+
+	public static void main(String[] args) {
+		FinallyTest finallyTest = new FinallyTest();
+		
+		int c = 0;
+		
+		try {
+			c = 4/ 0;
+		}catch(ArithmeticException e) {
+			c = -1;
+		}
+//		finally {
+			finallyTest.shouldBeRun(); //예외에 상관없이 무조건 실행
+			System.out.println(c);
+//		}
+	}
+}

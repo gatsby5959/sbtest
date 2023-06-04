@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="myClass.OverloadingEx01"/>
+    <fullyQualifiedTypeName name="myClass.Woman"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="youClass.MyClass"/>
+    <fullyQualifiedTypeName name="youClass2.MyClass"/>
+    <fullyQualifiedTypeName name="youClass3.MyClass"/>
+    <fullyQualifiedTypeName name="youClass4.MyClass"/>
+    <fullyQualifiedTypeName name="org.apache.catalina.manager.DummyProxySession"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="myClass.OverWatch"/>
+    <fullyQualifiedTypeName name="javax.swing.text.AbstractDocument.Content"/>
+    <fullyQualifiedTypeName name="myClass.ContentSender"/>
+    <fullyQualifiedTypeName name="myClass.KakaoSender"/>
+    <fullyQualifiedTypeName name="myClass.letterSender"/>
+    <fullyQualifiedTypeName name="myClass.Pet1"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+</qualifiedTypeNameHistroy>

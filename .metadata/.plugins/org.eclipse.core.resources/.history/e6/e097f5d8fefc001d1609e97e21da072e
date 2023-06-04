@@ -1,0 +1,8 @@
+package youClass2;
+
+public class AccessMain2 {
+	public static void main(String[] args) {
+		AccessMain2 a = new AccessMain2();
+		a.a = "a";
+	}
+}

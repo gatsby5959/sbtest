@@ -1,0 +1,10 @@
+package newClass;
+
+import youClass3.MyClass;
+
+public class AccessMain3 extends MyClass {
+	public static void main(String[] args) {
+		MyClass myclass = new MyClass();
+		myclass.a = "a";
+	}
+}

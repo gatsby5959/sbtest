@@ -1,0 +1,18 @@
+package myClass;
+
+public class ExceptionEx2 {
+	public static void main(String[] args) {
+		int number = 100;
+		int result = 0;
+		
+		for(int i =0; i < 10 ; i++) {
+			result = number / (int)(Math.random()*10); //9번째 라인
+			System.out.println(result);
+		}
+/*
+* 위 예제는 변수  number에 저장되어 있는 값, 100을 0~ 9 까지의 임의의 정수로 나누 ㄴ결과를 출력하는 일을 10번 반복한다.
+* random()을 사용하여 매번 실행할 떄마다 결과가 다르겠지만, 대부분의 경우 10번이 출력되기 이전에 예외가 발생하여 프로그램이 비정상적으로 종료
+* 0으로 나누려 했기에 에러 ArithmeticException(산술연산자 오류가 있으 ㄹ때 발생하는 예외)발생
+*/
+	}
+}

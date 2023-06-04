@@ -1,0 +1,10 @@
+package newClass;
+
+import youClass.MyClass;
+
+public class AccessMain3 {
+	public static void main(String[] args) {
+		MyClass myclass = new MyClass();
+		myclass.a = "a";
+	}
+}

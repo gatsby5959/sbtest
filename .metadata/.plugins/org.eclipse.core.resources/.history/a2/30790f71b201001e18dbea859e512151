@@ -1,0 +1,19 @@
+package myClass;
+
+public class KakaoSender extends ContentSender {
+
+	String content;
+	
+	public KakaoSender(String title, String nm, String content) {
+		super(title, nm);
+		this.content = content;
+	}
+	
+	@Override
+	public void sendMsg(String content) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}

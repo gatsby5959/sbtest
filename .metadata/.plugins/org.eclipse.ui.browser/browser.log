@@ -1,0 +1,11 @@
+
+5월 14, 2023 12:41:39.651 NEW SESSION
+5월 14, 2023 12:41:39.651 [11048:4196:0514/124139.650:ERROR:device_event_log_impl.cc(222)] [12:41:39.649] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+5월 14, 2023 12:42:28.45 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+
+5월 20, 2023 12:28:37.809 NEW SESSION
+5월 20, 2023 12:28:37.809 [3508:1476:0520/122837.809:ERROR:interface_endpoint_client.cc(696)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+5월 21, 2023 10:16:04.197 NEW SESSION
+5월 21, 2023 10:16:04.197 [3620:13148:0521/101604.196:ERROR:interface_endpoint_client.cc(696)] Message 0 rejected by interface blink.mojom.WidgetHost
+5월 21, 2023 10:16:19.949 [3620:13148:0521/101619.949:ERROR:interface_endpoint_client.cc(696)] Message 5 rejected by interface blink.mojom.WidgetHost
