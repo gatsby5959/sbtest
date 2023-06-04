@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Iftest230604 {
 	public static void main(String[] args) {
-		System.out.println("생년월일을 입력하세요 ex)19801215");
 		int inta = 19110118;
 		String sta = "19110118";
 		Scanner sc = new Scanner(System.in);
