@@ -14,7 +14,7 @@ public abstract class ContentSender {
 	}
 	
 	public ContentSender(String title, String nm) {
-//		super();
+		super();
 		this.title = title;
 		this.nm = nm;
 	}
