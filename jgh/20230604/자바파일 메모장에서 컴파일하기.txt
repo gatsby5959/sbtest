@@ -1,0 +1,26 @@
+Microsoft Windows [Version 10.0.19045.2965]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\admin>cd C:\jspbook
+
+C:\jspbook>java test1.java
+HELLO WORLD 123456 ^^ abcd
+hi how are you?
+
+C:\jspbook>javac test1.java
+test1.java:1: error: class Hello is public, should be declared in a file named Hello.java
+public class Hello{
+       ^
+1 error
+
+C:\jspbook>javac test1
+error: Class names, 'test1', are only accepted if annotation processing is explicitly requested
+1 error
+
+C:\jspbook>javac Test1.java
+
+C:\jspbook>java test1.java
+HELLO WORLD 123456 ^^ abcd
+hi how are you?
+
+C:\jspbook>
